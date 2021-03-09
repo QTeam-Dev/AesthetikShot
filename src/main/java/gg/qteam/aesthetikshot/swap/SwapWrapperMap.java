@@ -1,7 +1,7 @@
-package me.aurium.aesthetikshot.swap;
+package gg.qteam.aesthetikshot.swap;
 
-import me.aurium.aesthetikshot.AesthetikShot;
-import me.aurium.aesthetikshot.Config;
+import gg.qteam.aesthetikshot.AesthetikShot;
+import gg.qteam.aesthetikshot.Config;
 import org.bukkit.entity.Player;
 
 import java.util.HashMap;

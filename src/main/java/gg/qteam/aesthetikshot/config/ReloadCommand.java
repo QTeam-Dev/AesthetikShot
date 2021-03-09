@@ -1,6 +1,5 @@
-package me.aurium.aesthetikshot.config;
+package gg.qteam.aesthetikshot.config;
 
-import me.aurium.aesthetikshot.config.ConfigHolder;
 import org.bukkit.ChatColor;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;

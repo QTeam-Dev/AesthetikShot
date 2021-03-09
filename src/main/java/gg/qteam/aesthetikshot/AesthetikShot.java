@@ -1,13 +1,13 @@
-package me.aurium.aesthetikshot;
+package gg.qteam.aesthetikshot;
 
 import com.comphenix.protocol.ProtocolLibrary;
 import com.comphenix.protocol.ProtocolManager;
-import me.aurium.aesthetikshot.config.ConfigHolder;
-import me.aurium.aesthetikshot.config.ReloadCommand;
-import me.aurium.aesthetikshot.listeners.BulletHitBlockListener;
-import me.aurium.aesthetikshot.listeners.PotionListener;
-import me.aurium.aesthetikshot.listeners.ShootHideBulletListener;
-import me.aurium.aesthetikshot.listeners.WeaponSwapListener;
+import gg.qteam.aesthetikshot.config.ConfigHolder;
+import gg.qteam.aesthetikshot.config.ReloadCommand;
+import gg.qteam.aesthetikshot.listeners.BulletHitBlockListener;
+import gg.qteam.aesthetikshot.listeners.PotionListener;
+import gg.qteam.aesthetikshot.listeners.ShootHideBulletListener;
+import gg.qteam.aesthetikshot.listeners.WeaponSwapListener;
 import org.bukkit.plugin.PluginManager;
 import org.bukkit.plugin.java.JavaPlugin;
 import space.arim.dazzleconf.ConfigurationOptions;

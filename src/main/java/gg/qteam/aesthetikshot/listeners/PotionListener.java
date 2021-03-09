@@ -1,8 +1,8 @@
-package me.aurium.aesthetikshot.listeners;
+package gg.qteam.aesthetikshot.listeners;
 
 import com.shampaggon.crackshot.events.WeaponPrepareShootEvent;
 import com.shampaggon.crackshot.events.WeaponReloadEvent;
-import me.aurium.aesthetikshot.Config;
+import gg.qteam.aesthetikshot.Config;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;

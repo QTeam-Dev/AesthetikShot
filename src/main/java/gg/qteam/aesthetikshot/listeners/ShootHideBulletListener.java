@@ -1,10 +1,10 @@
-package me.aurium.aesthetikshot.listeners;
+package gg.qteam.aesthetikshot.listeners;
 
 import com.comphenix.protocol.PacketType;
 import com.comphenix.protocol.ProtocolManager;
 import com.comphenix.protocol.events.PacketContainer;
 import com.shampaggon.crackshot.events.WeaponShootEvent;
-import me.aurium.aesthetikshot.AesthetikShot;
+import gg.qteam.aesthetikshot.AesthetikShot;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 

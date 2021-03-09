@@ -1,4 +1,4 @@
-package me.aurium.aesthetikshot.listeners;
+package gg.qteam.aesthetikshot.listeners;
 
 public class WeirdPotionTypeException extends RuntimeException {
 

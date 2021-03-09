@@ -1,4 +1,4 @@
-package me.aurium.aesthetikshot.listeners;
+package gg.qteam.aesthetikshot.listeners;
 
 import com.comphenix.protocol.events.PacketContainer;
 

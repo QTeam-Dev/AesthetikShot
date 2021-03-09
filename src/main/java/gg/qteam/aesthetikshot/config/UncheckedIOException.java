@@ -1,4 +1,4 @@
-package me.aurium.aesthetikshot.config;
+package gg.qteam.aesthetikshot.config;
 
 public class UncheckedIOException extends RuntimeException{
     UncheckedIOException(Throwable throwable) {

@@ -1,11 +1,11 @@
-package me.aurium.aesthetikshot.listeners;
+package gg.qteam.aesthetikshot.listeners;
 
 import com.comphenix.protocol.PacketType;
 import com.comphenix.protocol.ProtocolManager;
 import com.comphenix.protocol.events.PacketContainer;
 import com.comphenix.protocol.wrappers.BlockPosition;
 import com.shampaggon.crackshot.events.WeaponHitBlockEvent;
-import me.aurium.aesthetikshot.AesthetikShot;
+import gg.qteam.aesthetikshot.AesthetikShot;
 import org.bukkit.Location;
 import org.bukkit.Sound;
 import org.bukkit.entity.Player;

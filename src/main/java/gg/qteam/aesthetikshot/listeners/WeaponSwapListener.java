@@ -1,10 +1,10 @@
-package me.aurium.aesthetikshot.listeners;
+package gg.qteam.aesthetikshot.listeners;
 
 import com.shampaggon.crackshot.CSUtility;
 import com.shampaggon.crackshot.events.WeaponPrepareShootEvent;
-import me.aurium.aesthetikshot.AesthetikShot;
-import me.aurium.aesthetikshot.Config;
-import me.aurium.aesthetikshot.swap.SwapWrapperMap;
+import gg.qteam.aesthetikshot.AesthetikShot;
+import gg.qteam.aesthetikshot.Config;
+import gg.qteam.aesthetikshot.swap.SwapWrapperMap;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;

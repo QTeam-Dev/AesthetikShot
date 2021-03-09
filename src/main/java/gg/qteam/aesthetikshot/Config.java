@@ -1,4 +1,4 @@
-package me.aurium.aesthetikshot;
+package gg.qteam.aesthetikshot;
 
 import space.arim.dazzleconf.annote.ConfComments;
 import space.arim.dazzleconf.annote.ConfDefault;

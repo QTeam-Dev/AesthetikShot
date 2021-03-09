@@ -1,6 +1,6 @@
-package me.aurium.aesthetikshot.config;
+package gg.qteam.aesthetikshot.config;
 
-import me.aurium.aesthetikshot.Config;
+import gg.qteam.aesthetikshot.Config;
 import space.arim.dazzleconf.error.InvalidConfigException;
 import space.arim.dazzleconf.helper.ConfigurationHelper;
 
