@@ -30,7 +30,6 @@ public class ShootHideBulletListener implements Listener {
         PacketContainer container = new PacketContainer(PacketType.Play.Server.ENTITY_DESTROY);
 
 
-        container.getIntegers().write(0,1);
         container.getIntegerArrays().write(0,new int[]{entityID});
 
 

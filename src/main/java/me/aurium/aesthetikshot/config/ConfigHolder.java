@@ -26,7 +26,7 @@ public class ConfigHolder {
 
     Config reloadChecked() {
         try {
-            return helper.reloadConfigData();
+            return config = helper.reloadConfigData();
         } catch (IOException | InvalidConfigException e) {
             throw new UncheckedIOException(e);
         }

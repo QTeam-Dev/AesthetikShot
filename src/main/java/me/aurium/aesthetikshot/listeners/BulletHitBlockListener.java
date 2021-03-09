@@ -38,7 +38,7 @@ public class BulletHitBlockListener implements Listener{
         PacketContainer container = new PacketContainer(PacketType.Play.Server.BLOCK_BREAK_ANIMATION);
         container.getIntegers().write(0, random.nextInt());
         container.getBlockPositionModifier().write(0,new BlockPosition(location.getBlockX(), location.getBlockY(), location.getBlockZ()));
-        container.getBytes().write(0, (byte) 5);
+        container.getIntegers().write(1, 5);
 
         shot.getServer().getOnlinePlayers().forEach(player1 -> {
             try {
