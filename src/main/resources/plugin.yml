@@ -1,0 +1,15 @@
+name: AesthetikShot
+
+main: me.aurium.aesthetikshot.AesthetikShot
+version: 2.0
+author: Aurium
+
+depend:
+  - ProtocolLib
+  - CrackShot
+
+commands:
+  reloadAS:
+    description: Reload aesthetikshot
+    usage: /reloadAS
+    permission: aesthetikshot.reload
