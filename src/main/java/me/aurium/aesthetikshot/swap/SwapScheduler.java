@@ -30,7 +30,7 @@ public class SwapScheduler {
             @Override
             public void run() {
                 int tens = configurable / 10;
-                int ones = configurable - tens;
+                int ones = configurable - (tens * 10);
 
                 sender.sendActionbar(target,String.format(config.swapMessage(),tens,ones));
 

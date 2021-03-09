@@ -24,13 +24,13 @@ public class PotionListener implements Listener {
 
         Optional<PotionEffectType> effectType = Optional.ofNullable(PotionEffectType.getByName(config.restrictShooting()));
 
-        effectType.ifPresentOrElse(type -> {
-            if (player.hasPotionEffect(type)) {
+        if (effectType.isPresent()) {
+            if (player.hasPotionEffect(effectType.get())) {
                 event.setCancelled(true);
             }
-        },() -> {
+        } else {
             throw new WeirdPotionTypeException();
-        });
+        }
 
     }
 
@@ -40,13 +40,14 @@ public class PotionListener implements Listener {
 
         Optional<PotionEffectType> effectType = Optional.ofNullable(PotionEffectType.getByName(config.restrictShooting()));
 
-        effectType.ifPresentOrElse(type -> {
-            if (player.hasPotionEffect(type)) {
+        if (effectType.isPresent()) {
+            if (player.hasPotionEffect(effectType.get())) {
                 event.setReloadSpeed(config.reloadBoost());
             }
-        },() -> {
+        } else {
             throw new WeirdPotionTypeException();
-        });
+        }
+
     }
 
 }
